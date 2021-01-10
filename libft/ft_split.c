@@ -6,11 +6,16 @@
 /*   By: artmende <artmende@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 09:47:14 by artmende          #+#    #+#             */
-/*   Updated: 2020/11/27 17:04:36 by artmende         ###   ########.fr       */
+/*   Updated: 2021/01/10 14:59:52 by artmende         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	Depending on flag f, nbr_elem returns either the number of strings to create
+**	or the number of char to copy in each string.
+*/
 
 static unsigned int	nbr_elem(const char *s, char c, int f)
 {
